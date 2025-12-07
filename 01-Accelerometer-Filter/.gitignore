@@ -1,0 +1,48 @@
+# STM32CubeIDE Build Outputs
+Debug/
+Release/
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# STM32CubeIDE Project Files (generated)
+.settings/
+*.launch
+
+# Build artifacts
+*.o
+*.d
+*.su
+*.cyclo
+makefile
+objects.list
+objects.mk
+sources.mk
+subdir.mk
+
+# MATLAB autosave and temporary files
+*.asv
+*.m~
+*.autosave
+
+# Recorded data files (optional - comment out if you want to track recordings)
+Accelerometer_Recording_*.mat
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor backups
+*~
+*.bak
+*.swp
+*.swo
+
+# User-specific IDE settings
+*.launch
+.project
+.cproject
+.mxproject
