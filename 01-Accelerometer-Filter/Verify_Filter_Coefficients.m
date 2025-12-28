@@ -19,7 +19,7 @@ fprintf('  Cutoff Frequency (Fc): %d Hz\n', Fc);
 fprintf('  Normalized Cutoff (Wn): %.4f\n\n', Wn);
 
 % Parse coefficients from main.c
-main_c_path = 'Core/Src/main.c';
+main_c_path = 'MCU/Core/Src/main.c';
 if ~exist(main_c_path, 'file')
     error('Cannot find main.c at: %s', main_c_path);
 end
